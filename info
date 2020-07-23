@@ -1,0 +1,5 @@
+[root@CentOS ~]# groupadd dev
+
+[root@CentOS ~]# useradd -G devs -d /home/gituser -m -s /bin/bash gituser
+
+[root@CentOS ~]# passwd gituser
